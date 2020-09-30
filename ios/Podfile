@@ -17,6 +17,8 @@ target 'MapView' do
   use_flipper!
   pod 'react-native-geolocation', :path => '../node_modules/@react-native-community/geolocation'
 
+  pod 'react-native-maps', :path => '../node_modules/react-native-maps'
+
   post_install do |installer|
     flipper_post_install(installer)
   end
